@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+  font-size: 1.6rem;
+  color: black;
+  background-color: #333333;
+  min-height: 10vh;
+
+  &__left {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__right {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__ppmt {
+    margin-right: 1rem;
+  }
+  &__link {
+    text-decoration: none;
+    color: #cccccc;
+    transition: all 0.3s;
+    &:hover {
+      color: rgb(89, 236, 89);
+    }
+  }
+
+  &__dashboard {
+    margin-right: 1rem;
+  }
+
+  &__signup {
+    margin-right: 1rem;
+  }
+
+  &__item {
+    padding: 1rem;
+    transition: all 0.3s;
+    border-bottom: 2px solid transparent;
+    &:hover {
+      background-color: #555555;
+      border-bottom: 2px solid red;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.createProjectButton {
+  transition: all 0.3s;
+
+  &__link {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #444444;
+    background-color: rgb(129, 243, 129);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.2rem 0.2rem #444444;
+    transition: all 0.3s;
+    &:hover {
+      background-color: rgb(29, 231, 29);
+    }
+  }
+  &:hover {
+    transform: translateY(-0.2rem);
+  }
+}

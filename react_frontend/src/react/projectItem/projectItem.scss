@@ -1,0 +1,28 @@
+.projectItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80rem;
+  border: 1px solid #333333;
+  padding: 1rem;
+
+  &__icon {
+    font-size: 1.6rem !important;
+    &--board {
+      color: green;
+    }
+    &--update {
+      color: orange;
+    }
+    &--delete {
+      color: red;
+    }
+  }
+
+  &__board,
+  &__update,
+  &__delete {
+    border-left: 1px solid #333333;
+    border-top: 1px solid #333333;
+  }
+}
